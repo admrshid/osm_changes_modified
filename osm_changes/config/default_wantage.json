@@ -1,0 +1,17 @@
+{
+    "config": "default",
+    "output": "tiff",
+    "output_dir": "./output_wantage2",
+    "zoom": 16,
+    "min_latitude": 51.57,
+    "max_latitude": 51.62,
+    "min_longitude": -1.44,
+    "max_longitude": -1.4,
+    "height": 1000,
+    "width": 1000,
+    "layer1": "201610",
+    "layer2": "202310",
+    "initial_label": "Nothing",
+    "final_label": "Building",
+    "log_level": "INFO"
+}
