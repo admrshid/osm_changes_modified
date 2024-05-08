@@ -6,17 +6,15 @@ import sys
 
 def main(path,threshold):
 
-    full= full_path(path)
-    files = list_file_unfiltered(full)
-    for file in files:
-        print(file)
-        classsaver(file,threshold)
+    type = ['change','no_change']
+
+    for i in type:
+
+        classsaver(path,threshold,i)  
 
 if __name__ == "__main__":
 
-    #path = 'output_swinden_config2'
     path = sys.argv[1]
-    #path = f"{path}_filtered"
     threshold = sys.argv[2]
     threshold = int(threshold)
 
