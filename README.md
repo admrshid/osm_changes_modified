@@ -20,3 +20,7 @@ Saves .tiff images into a change and no_change folder where images will be consi
 
 ## run folder
 Contains test.bat which can be modified which executes the processing chain shown in the figure shown previously
+
+# Things to note when running test.bat
+1. Modify it to make sure it changes to your working directory (path\to\osm_changes_modified)
+2. Modify it to activate your wanted virtual environment (from the packages specified in osm_changes, the additional package would need include 'pip install scikit image')
